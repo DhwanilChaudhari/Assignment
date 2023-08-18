@@ -1,0 +1,63 @@
+Q.What is JavaScript?
+A.JavaScript is the Programming Language for the Web.
+JavaScript can update and change both HTML and CSS.
+JavaScript can calculate, manipulate and validate data.
+
+Q.What is the use of isNaN function?
+A.The JavaScript isNaN() Function is used to check whether a given value is an illegal number or not. 
+It returns true if the value is a NaN else returns false. 
+It is different from the Number.isNaN() Method.
+
+Q.What is negative Infinity?
+A.negative infinity is a special numeric value that is returned when an arithmetic operation or mathematical function generates a negative value greater than the largest representable number in JavaScript.
+
+Q.Which company developed JavaScript?
+A.JavaScript was invented by Brendan Eich in 1995.
+It was developed for Netscape 2, and became the ECMA-262 standard in 1997.
+
+Q.What are undeclared and undefined variables?
+A.Undefined: It occurs when a variable has been declared but has not been assigned any value. Undefined is not a keyword. 
+Undeclared: It occurs when we try to access any variable that is not initialized or declared earlier using the var or const keyword.
+
+Q.What is === operator?
+A.he strict equality (===) operator checks whether its two operands are equal, returning a Boolean result. 
+Unlike the equality operator, the strict equality operator always considers operands of different types to be different.
+
+Q.What are all the looping structures in JavaScript?
+A.Loops are handy, if you want to run the same code over and over again, each time with a different value.
+there is 6 type of loop 
+(1) while loop 
+(2) do while loop 
+(3) for loop 
+(4) for of loop  (array)
+(5) for in loop  (object)
+(6) foreach loop (array/object)
+
+while loop : (syntax)
+while(condition){
+    statement;
+    increment/ decrement
+}
+
+do..while loop : (syntax)
+do{
+    statement;
+    increment/ decrement
+}while(condition)
+
+for loop :
+initialization = declaration
+for(initialization; condition; increment/decrement){
+    statement
+}
+
+Q.What are the disadvantages of using innerHTML in JavaScript?
+A.The use of innerHTML very slow: The process of using innerHTML is much slower as its contents as slowly built, also already parsed contents and elements are also re-parsed which takes time.
+
+Preserves event handlers attached to any DOM elements: The event handlers do not get attached to the new elements created by setting innerHTML automatically. 
+To do so one has to keep track of the event handlers and attach it to new elements manually.
+This may cause a memory leak on some browsers.
+
+Q.What are all the types of Pop up boxes available in JavaScript?
+A.In Javascript, popup boxes are used to display the message or notification to the user.
+ There are three types of pop-up boxes in JavaScript namely Alert Box, Confirm Box and Prompt Box.
