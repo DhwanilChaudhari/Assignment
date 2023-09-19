@@ -1,0 +1,85 @@
+Q.What are the advantages of Bootstrap?
+Ans. saving time and effort by providing ready-made components and styles that can be customized and combined like
+Responsiveness,Cross-browser compatibility,JavaScript plugins to your rescue,Updates at the doorstep etc
+
+Q.What is a Bootstrap Container, and how does it work?
+Ans. Bootstrap container is used to set the content's margins dealing with the responsive behaviors of your layout.
+It contains the row elements and the row elements are the container of columns (known as grid system).
+
+<div class="container">  
+   <div class="row">  
+     <div class="col-md-xx"></div> 
+
+Q. What are the default Bootstrap text settings?
+Ans. In Bootstrap 5 the HTML <small> element (and the .small class) is used to create a smaller,
+ secondary text in any heading
+Use a native font stack that selects the best font-family for each OS and device.
+For a more inclusive and accessible type scale, we use the browser’s default root font-size (typically 16px) so visitors can customize their browser defaults as needed.
+Use the $font-family-base, $font-size-base, and $line-height-base attributes as our typographic base applied to the <body>.
+Set the global link color via $link-color.
+Use $body-bg to set a background-color on the <body> (#fff by default).
+
+Q. What do you know about the Bootstrap Grid System?
+Ans. Bootstrap’s grid system uses a series of containers, rows, and columns to layout and align content. 
+It’s built with flexbox and is fully responsive. 
+
+Q.What is the difference between Bootstrap 4 and Bootstrap 5
+Ans. 
+ 
+Basis of        -      Bootstrap 4                         -          Bootstrap 5
+Grid System	    - It has 5 tier (xs, sm, md, lg, xl).      -  It has 6 tier (xs, sm, md, lg, xl, xxl).
+Color           - It has limited colors.	               - Extra colors added with the looks, A card improved color palette. there are various shades available to choose.
+Jquery          - It has jquery and all related plugins.   - query is removed and switched to vanilla JS with some working plugins
+Form elements   - Radio buttons, checkboxes have different - The look of form elements will not change, on different OS or browser.  t
+                  look in different OS and browsers.         The forms can be customized and form controls can be added,
+                  The form uses whatever default             hey would not depend on browser. 
+                  browsers provide.
+Gutter          - We use .glutter with fontsize in px      - We use .g* with fontsize in rem
+Bootstrap Icons - Bootstrap 4 doesn’t have its own         - Bootstrap 5 have its own SVG icons
+                  SVG icons, we have to use
+                 font-awesome for icons.              
+Navbar          - We have inline-block property and we will- nline-block property is removed and we will get black dropdown as default for dropdown-menu-dark class.
+                  get white dropdown as default for
+                  dropdown-menu-dark class.
+
+Q. What is a Button Group, and what is the class for a basic Button Group?
+Ans. “Button Groups” in Bootstrap is a class of name “btn-group” which is used to create a series of buttons in groups (without spaces) vertically or horizontally.
+
+Syntax: This is the basic syntax of the button group class where each button has its own class of “btn”.
+
+<div class="btn-group">
+    <button type="button" class="btn">Click</button>
+</div>
+
+Q. How can you use Bootstrap to make thumbnails?
+Ans. Add an <a> tag with the class of .thumbnail around an image.
+
+This adds four pixels of padding and a gray border.
+
+On hover, an animated glow outlines the image.
+
+Q.In Bootstrap 4, what is flexbox?
+Ans. The biggest difference between Bootstrap 3 and Bootstrap 4 is that Bootstrap 4 now uses flexbox, instead of floats, to handle the layout.
+
+The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning.
+
+Q.How can one create an alert in Bootstrap?
+Ans. Alerts are created with the .alert class, followed by one of the four contextual classes .alert-success, .alert-info, .alert-warning or .alert-danger:
+Ex.
+<div class="alert alert-success">
+  <strong>Success!</strong> Indicates a successful or positive action.
+</div>
+
+<div class="alert alert-info">
+  <strong>Info!</strong> Indicates a neutral informative change or action.
+</div>
+
+<div class="alert alert-warning">
+  <strong>Warning!</strong> Indicates a warning that might need attention.
+</div>
+
+<div class="alert alert-danger">
+  <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
+</div>
+
+
